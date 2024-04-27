@@ -8,8 +8,8 @@ import {themes as prismThemes} from 'prism-react-renderer';
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'My Site',
-  tagline: 'Dinosaurs are cool',
+  title: "Kawakaze's Blog",
+  tagline: '',
   favicon: 'img/favicon.ico',
 
   // Set the production url of your site here
@@ -76,7 +76,7 @@ const config = {
             type: 'docSidebar',
             sidebarId: 'tutorialSidebar',
             position: 'left',
-            label: 'Tutorial',
+            label: 'Novels',
           },
           {to: '/blog', label: 'Blog', position: 'left'},
           {
@@ -90,7 +90,7 @@ const config = {
         style: 'dark',
         links: [
           {
-            title: 'Docs',
+            title: 'Novels',
             items: [
               {
                 label: 'Tutorial',
@@ -135,6 +135,16 @@ const config = {
         theme: prismThemes.github,
         darkTheme: prismThemes.dracula,
       },
+      colorMode:{
+        defaultMode:"dark"
+      },
+      announcementBar:{
+        id: "In Dev",
+        content:
+        'This website is still in developing,Be patient.',
+        backgroundColor: '#fafbfc',
+        textColor: '#091E42',
+      }
     }),
 };
 
