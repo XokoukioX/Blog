@@ -5,6 +5,8 @@
 // See: https://docusaurus.io/docs/api/docusaurus-config
 
 import {themes as prismThemes} from 'prism-react-renderer';
+import { Analytics } from "@vercel/analytics/react"
+
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
