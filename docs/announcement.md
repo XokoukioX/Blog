@@ -5,7 +5,7 @@ authors:
   - name: 1 
     title: The Author
     url: 2
-tags: [novels]
+tags: [Announcement]
 ---
 
 1.归类在Novels分类的小说均有出处，如有不正确的请联系我。
