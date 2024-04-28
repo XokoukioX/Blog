@@ -28,7 +28,8 @@
   },
   "devDependencies": {
     "@docusaurus/module-type-aliases": "3.2.1",
-    "@docusaurus/types": "3.2.1"
+    "@docusaurus/types": "3.2.1",
+    "@giscus/react": "^3.0.0"
   },
   "browserslist": {
     "production": [
