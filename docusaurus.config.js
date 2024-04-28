@@ -37,6 +37,13 @@ const config = {
   },
   plugins: [
     [
+      'vercel-analytics',
+      {
+        debug: true,
+        mode: 'auto',
+      },
+    ],
+    [
       '@docusaurus/plugin-content-docs',
       {
         id: 'Novel',
@@ -129,7 +136,7 @@ const config = {
       announcementBar:{
         id: "In Dev",
         content:
-        '🚧This website is still in developing,Be patient.',
+        '🚧This website is still in developing,Be patient.🚧',
         backgroundColor: '#fafbfc',
         textColor: '#091E42',
       }
