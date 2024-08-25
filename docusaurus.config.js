@@ -136,7 +136,7 @@ const config = {
       announcementBar:{
         id: "In Dev",
         content:
-        '🚧This website is still in developing,Be patient.🚧',
+        '🚧This website is still in developing,Be patient.🚧\n🤓👆Now I am developing a new Blog website, visit https://dev.lilac.ltd for more information.',
         backgroundColor: '#fafbfc',
         textColor: '#091E42',
       }
